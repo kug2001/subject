@@ -1,0 +1,33 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e57dba;
+  height: 4rem;
+  margin-bottom: 4rem;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.navbarTitle {
+  color: white;
+  margin: 0;
+}
+.btnBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+}
+.btnBox > button {
+  border: transparent;
+  background-color: #eab0ef;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 4px;
+  transition: all ease-in 200ms;
+  cursor: pointer;
+}
+.btnBox > button:hover {
+  background-color: white;
+}

@@ -1,0 +1,79 @@
+.enrollContainer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.subjectBox {
+  border: 10px inset #e57dba;
+  padding: 1rem 1rem;
+  width: 40rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+.titleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleBox > h1 {
+  margin-top: 1rem;
+}
+.subTitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0rem 0;
+}
+.subTitle > h2 {
+  margin: 1 1rem;
+  font-size: 1.2rem;
+}
+.discriptionBox {
+  text-align-last: center;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+  width: 90%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.discriptionBox > h2 {
+  font-size: 1rem;
+}
+.postBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.postBox > label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0.2rem 0;
+  font-size: 1rem;
+}
+.postBox > label > input {
+  width: 8rem;
+  height: 2rem;
+  border: 1px solid pink;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+.btnBox {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+  width: 100%;
+}
+.btnBox > button {
+  font-size: 1.2rem;
+  margin: 0rem 0.5rem;
+  border: 2px solid pink;
+  padding: 0.3rem 1rem;
+  border-radius: 10px;
+}
+.btnBox > button:hover {
+  background-color: #e57dba;
+}

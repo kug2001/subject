@@ -1,0 +1,31 @@
+.classListContainer {
+  margin: 0;
+}
+.classListBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 5rem;
+  padding-inline-start: 0;
+  z-index: 0;
+}
+.btnBox {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+.btnBox > button {
+  /* margin: 0 2rem; */
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  border: transparent;
+  background-color: coral;
+  transition: all ease-in 200ms;
+}
+.btnBox > button:hover {
+  background-color: bisque;
+}
